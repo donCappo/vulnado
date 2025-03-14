@@ -105,9 +105,9 @@
     jfrogPlatform:
     # [Optional]
     # JFrog project key. Learn more about it [here](https://www.jfrog.com/confluence/display/JFROG/Projects)
-     jfrogProjectKey: "noi"
+      jfrogProjectKey: "noi"
 
     # [Optional]
     # Xray Watches. Learn more about it [here](https://www.jfrog.com/confluence/display/JFROG/Configuring+Xray+Watches)
-     watches:
-      - "watch-noibit"
+      watches:
+        - "watch-noibit"
