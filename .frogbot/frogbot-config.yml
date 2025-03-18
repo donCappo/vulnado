@@ -33,7 +33,7 @@
       # [Optional, Default: false]
       # If true, Frogbot creates a single pull request with all the fixes.
       # If false, Frogbot creates a separate pull request for each fix.
-      aggregateFixes: true
+      #aggregateFixes: true
 
       # [Optional, Default: eco-system+frogbot@jfrog.com]
       # Set the email of the commit author
@@ -41,7 +41,7 @@
 
     # Frogbot scanning parameters
     scan:
-      includeAllVulnerabilities: true
+      #includeAllVulnerabilities: true
       # [Default: false]
       # Frogbot displays all existing vulnerabilities, including the ones that were not added by the pull request
       
@@ -107,7 +107,7 @@
     jfrogPlatform:
     # [Optional]
     # JFrog project key. Learn more about it [here](https://www.jfrog.com/confluence/display/JFROG/Projects)
-      jfrogProjectKey: "noi"
+    #  jfrogProjectKey: "noi"
 
     # [Optional]
     # Xray Watches. Learn more about it [here](https://www.jfrog.com/confluence/display/JFROG/Configuring+Xray+Watches)
