@@ -52,7 +52,7 @@
 
       # [Default: true]
       # Frogbot does not fail the task if security issues are found and this parameter is set to false
-      # failOnSecurityIssues: false
+      failOnSecurityIssues: false
 
       # [Default: false]
       # Handle vulnerabilities with fix versions only
