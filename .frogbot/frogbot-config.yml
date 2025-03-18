@@ -70,7 +70,7 @@
       # - user@company.com
 
       # List of subprojects / project dirs inside the Git repository
-      projects:
+      #projects:
       # [Mandatory if the two conditions below are met]
       # 1. The project uses yarn 2, NuGet or .NET Core to download its dependencies
       # 2. The `installCommand` variable isn't set in your frogbot-config.yml file.
@@ -104,12 +104,12 @@
       #   repository: ""
 
     # JFrog Platform parameters
-    jfrogPlatform:
+    #jfrogPlatform:
     # [Optional]
     # JFrog project key. Learn more about it [here](https://www.jfrog.com/confluence/display/JFROG/Projects)
     #  jfrogProjectKey: "noi"
 
     # [Optional]
     # Xray Watches. Learn more about it [here](https://www.jfrog.com/confluence/display/JFROG/Configuring+Xray+Watches)
-      watches:
-        - "watch-noibit"
+    #  watches:
+    #    - "watch-noibit"
